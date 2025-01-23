@@ -24,9 +24,11 @@
 }
 
 .login-header h1 {
+  background: linear-gradient(to right, #d3b5b5, #87e2ee);
+  border-radius: 4px;
   margin: 0 auto;
   text-align: center;
-  text-shadow: 2px 2px 4px #000;
+  text-shadow: 2px 2px 4px #ec9f9f;
 }
 
 .login-header a {
