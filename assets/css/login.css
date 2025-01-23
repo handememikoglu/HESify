@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  width: 1440px;
+  margin: auto;
+  margin-bottom: 140px;
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 135px 16px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #000;
+}
+
+.login-header h1 {
+  background: linear-gradient(to right, #d3b5b5, #87e2ee);
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 2px 2px 4px #ec9f9f;
+}
+
+.login-header a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  text-decoration: none;
+}
+
+.login-content {
+  width: 1305px;
+  display: flex;
+  align-items: center;
+  gap: 129px;
+}
+
+.login-content img {
+  width: 805px;
+  height: 781px;
+}
+
+.login-form {
+  width: 370px;
+}
+
+.login-form h2 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.login-form p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 48px;
+}
+
+.login-form form input {
+  font-family: Poppins;
+  width: 370px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-style: none;
+  display: block;
+  outline: none;
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+}
+
+.login-button {
+  font-family: Poppins;
+  width: 143px;
+  padding: 16px 48px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #FAFAFA;
+  cursor: pointer;
+  border-style: none;
+  background-color: #DB4444;
+  margin-right: 87px;
+}
+
+.login-form a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #DB4444;
+  text-decoration: none;
+}
