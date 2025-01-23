@@ -1,3 +1,96 @@
-img {
-    width: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.singUp-header {
+    border-bottom: 1px solid #000000;
+    padding: 45px 135px;
+    margin-bottom: 60px;
+}
+.singUp-header h1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.signUp-create-account {
+    width: 1305px;
+    display: flex;
+    gap: 129px;
+}
+.signUp-create-account img {
+    width: 805px;
+}
+.signUp-form {
+    padding-top: 125.5px;
+}
+.signUp-form h2 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.signUp-form p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 48px;
+}
+.signUp-form form input {
+    display: block;
+    width: 370px; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-style: none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 40px;
+}
+.signUp-form button {
+    width: 370px;
+    padding: 16px 122px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #DB4444;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FAFAFA;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.signUp-text {
+    display: flex;
+    gap: 16px;
+}
+.signUp-text h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#000000;
+}
+.signUp-text a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
 }
