@@ -22,8 +22,6 @@ button.addEventListener("click", (event) => {
         }else {
             console.log("kullanıcı bulunamadı");
         }
-        console.log(userMail);
-        console.log(userPassword);
 
     }).catch(e => {
         console.log("bir hata oldu.");
