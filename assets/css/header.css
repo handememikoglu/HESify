@@ -10,6 +10,8 @@
 
 /* header hangi sayfada kullanılacaksa bu kod o sayfa içerisine taşınacak, figmada ilgili sayfada margin değeri de ayrıca uygulanacak*/
 .header-container {
+  display: flex;
+  justify-content: center;
   padding: 40px 135px 16px;
   border-bottom: 1px solid #000;
   /* margin-bottom: figmadan alınacak; */
