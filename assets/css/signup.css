@@ -17,13 +17,16 @@ body {
 }
 .singUp-header {
     border-bottom: 1px solid #000000;
-    padding: 45px 135px;
+    padding: 38px 135px 16px;
     margin-bottom: 60px;
+    display: flex;
 }
 .singUp-header h1 {
-    display: flex;
-    justify-content: center;
-    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(to right, #d3b5b5, #87e2ee);
+    text-shadow: 2px 2px 4px #ec9f9f;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin:auto;
 }
 .signUp-create-account {
     width: 1305px;
@@ -31,10 +34,8 @@ body {
     gap: 129px;
 }
 .signUp-create-account img {
-    width: 805px;
-}
-.signUp-form {
-    padding-top: 125.5px;
+    max-width: 600px;
+    height: 650px;
 }
 .signUp-form h2 {
     font-family: Inter;
@@ -53,7 +54,7 @@ body {
     line-height: 24px;
     text-align: left;
     color: #000000;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 .signUp-form form input {
     display: block;
@@ -64,6 +65,7 @@ body {
     border-style: none;
     border-bottom: 1px solid #000000;
     margin-bottom: 40px;
+    outline: none;
 }
 .signUp-form button {
     width: 370px;

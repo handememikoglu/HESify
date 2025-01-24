@@ -1,7 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
 .footer-list {
     display: flex;
     gap: 87px;
 }
 .footer-app {
     display: flex;
+    gap: 8px;
+}
+.footer-icon {
+    display: flex;
+    flex-direction: column;
 }
