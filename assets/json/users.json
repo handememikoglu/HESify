@@ -1,0 +1,92 @@
+[
+    {
+        "age": 25,
+        "gender": "male",
+        "name": "John",
+        "surname": "Doe",
+        "username": "johndoe",
+        "password": "password123",
+        "email": "johndoe@example.com"
+    },
+    {
+        "age": 30,
+        "gender": "female",
+        "name": "Jane",
+        "surname": "Smith",
+        "username": "janesmith",
+        "password": "qwerty456",
+        "email": "janesmith@example.com"
+    },
+    {
+        "age": 22,
+        "gender": "male",
+        "name": "Mike",
+        "surname": "Johnson",
+        "username": "mikejohnson",
+        "password": "abc123",
+        "email": "mikejohnson@example.com"
+    },
+    {
+        "age": 28,
+        "gender": "female",
+        "name": "Emily",
+        "surname": "Davis",
+        "username": "emilydavis",
+        "password": "mypassword",
+        "email": "emilydavis@example.com"
+    },
+    {
+        "age": 35,
+        "gender": "male",
+        "name": "David",
+        "surname": "Wilson",
+        "username": "davidwilson",
+        "password": "password789",
+        "email": "davidwilson@example.com"
+    },
+    {
+        "age": 27,
+        "gender": "female",
+        "name": "Sarah",
+        "surname": "Clark",
+        "username": "sarahclark",
+        "password": "qwerty123",
+        "email": "sarahclark@example.com"
+    },
+    {
+        "age": 32,
+        "gender": "male",
+        "name": "Chris",
+        "surname": "Lewis",
+        "username": "chrislewis",
+        "password": "abc456",
+        "email": "chrislewis@example.com"
+    },
+    {
+        "age": 24,
+        "gender": "female",
+        "name": "Olivia",
+        "surname": "Robinson",
+        "username": "oliviarobinson",
+        "password": "mypassword123",
+        "email": "oliviarobinson@example.com"
+    },
+    {
+        "age": 29,
+        "gender": "male",
+        "name": "Daniel",
+        "surname": "Hall",
+        "username": "danielhall",
+        "password": "password456",
+        "email": "danielhall@example.com"
+    },
+    {
+        "age": 26,
+        "gender": "female",
+        "name": "Sophia",
+        "surname": "Young",
+        "username": "sophiayoung",
+        "password": "qwerty789",
+        "email": "sophiayoung@example.com"
+    }
+]
