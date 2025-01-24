@@ -1,0 +1,7 @@
+.footer-list {
+    display: flex;
+    gap: 87px;
+}
+.footer-app {
+    display: flex;
+}
