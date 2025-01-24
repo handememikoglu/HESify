@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header hangi sayfada kullanılacaksa bu kod o sayfa içerisine taşınacak, figmada ilgili sayfada margin değeri de ayrıca uygulanacak*/
+.header-container {
+  padding: 40px 135px 16px;
+  border-bottom: 1px solid #000;
+  /* margin-bottom: figmadan alınacak; */
+}
+
+.content {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000;
+  padding: 4px 2px;
+  border-radius: 4px;
+  text-shadow: 2px 2px 4px #ec9f9f;
+  background: linear-gradient(to right, #d3b5b5, #87e2ee);
+}
+
+.content-contact a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.content-contact {
+  display: flex;
+  gap: 48px;
+}
+
+.content-item {
+  width: 395px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 243px;
+  padding: 7px 12px 7px 20px;
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: #F5F5F5;
+}
+
+.search i {
+  font-size: 16px;
+}
+
+.dynamic-icon {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  cursor: pointer;
+}
