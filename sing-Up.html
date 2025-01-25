@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hesap Aç</title>
-    <link rel="stylesheet" href="assets/css/signup.css">
-    <script src="assets/js/singUp.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hesap Aç</title>
+  <link rel="stylesheet" href="assets/css/signup.css">
+  <script src="assets/js/singUp.js" defer></script>
 </head>
+
 <body>
-    <div class="signUp-container">
-        <div class="singUp-header">
-            <h1>HESify!</h1>
-        </div>
-        <div class="signUp-create-account">
-            <img src="assets/img/logo.jpeg" alt="alışveriş görseli">
-            <div class="signUp-form">
-                <h2>Hesap Oluştur</h2>
-                <p>Bilgilerinizi aşağıya girin</p>
-                <form >
-                    <input type="text" placeholder="Ad">
-                    <input type="text" placeholder="Soyad">
-                    <input type="text" placeholder="Yaş">
-                    <input type="text" placeholder="Cinsiyet">
-                    <!-- <input type="text" placeholder="Kullanıcı Adı"> -->
-                    <input type="text" placeholder="e-mail">
-                    <input type="text" placeholder="Şifre">
-                </form>
-                <button class="button">Hesap Oluştur</button>
-                <div class="signUp-text">
-                    <h4>Zaten hesabınız var mı?</h4>
-                    <a href="login.html">Giriş yap</a> 
-                </div>
-            </div>
-        </div>
+  <div class="signUp-container">
+    <div class="signUp-header">
+      <h1>HESify!</h1>
     </div>
+    <div class="signUp-create-account">
+      <img src="assets/img/logo.jpeg" alt="alışveriş görseli">
+      <div class="signUp-form">
+        <h2>Hesap Oluştur</h2>
+        <p>Bilgilerinizi aşağıya girin</p>
+        <form id="signUpForm">
+          <input type="text" placeholder="Ad" name="name" required>
+          <input type="text" placeholder="Soyad" name="surname" required>
+          <input type="number" placeholder="Yaş" name="age" min="1" max="120" required>
+          <input type="text" placeholder="Cinsiyet" name="gander" required>
+          <input type="email" placeholder="e-mail" name="email" required>
+          <input type="text" placeholder="Şifre" name="password" required minlength="6">
+          <button class="button" type="submit">Hesap Oluştur</button>
+        </form>
+        <div class="signUp-text">
+          <h4>Zaten hesabınız var mı?</h4>
+          <a href="login.html">Giriş yap</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
