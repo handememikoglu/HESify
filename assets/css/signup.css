@@ -21,14 +21,14 @@ body {
   margin-bottom: 140px;
 }
 
-.singUp-header {
+.signUp-header {
   border-bottom: 1px solid #000000;
   padding: 38px 135px 16px;
   margin-bottom: 60px;
   display: flex;
 }
 
-.singUp-header h1 {
+.signUp-header h1 {
   background: linear-gradient(to right, #d3b5b5, #87e2ee);
   text-shadow: 2px 2px 4px #ec9f9f;
   padding: 8px 12px;
