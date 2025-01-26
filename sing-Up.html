@@ -23,7 +23,16 @@
           <input type="text" placeholder="Ad" name="name" required>
           <input type="text" placeholder="Soyad" name="surname" required>
           <input type="number" placeholder="Yaş" name="age" min="1" max="120" required>
-          <input type="text" placeholder="Cinsiyet" name="gander" required>
+
+          <div class="formLabel">
+            <label for="gander">Cinsiyet</label>
+            <select name="gender" id="gander" required>
+              <option selected disabled>Seçiniz</option>
+              <option value="erkek">Erkek</option>
+              <option value="kadın">Kadın</option>
+            </select>
+          </div>
+         
           <input type="email" placeholder="e-mail" name="email" required>
           <input type="text" placeholder="Şifre" name="password" required minlength="6">
           <button class="button" type="submit">Hesap Oluştur</button>
