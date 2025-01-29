@@ -93,7 +93,7 @@
   border-bottom: 1px solid #000;
 }
 
-.login-button {
+.login-button a {
   font-family: Poppins;
   width: 143px;
   padding: 16px 48px;
@@ -115,4 +115,10 @@
   line-height: 24px;
   color: #DB4444;
   text-decoration: none;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: none;
 }

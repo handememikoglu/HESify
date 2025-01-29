@@ -1,6 +1,16 @@
 const mail = document.querySelector(".login-email");
 const password = document.querySelector(".login-password");
 const button = document.querySelector(".login-button");
+const errorMessage = document.querySelector("#error-message");
+
+password.addEventListener("blur", () => {
+    if (password.value.length > 0 && password.value.length < 6) {
+        errorMessage.style.display = "block";
+        errorMessage.style.color = "red"
+    } else {
+        errorMessage.style.display = "none";
+    }
+});
 
 button.addEventListener("click", (event) => {
     event.preventDefault();
@@ -32,6 +42,7 @@ button.addEventListener("click", (event) => {
               });
             console.log("kullanıcı bulunamadı");
         }
+    
 
     }).catch(e => {
         console.log("bir hata oldu.");

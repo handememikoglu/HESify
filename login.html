@@ -26,10 +26,11 @@
         <h2>HESify'a giriş yap</h2>
         <p>Hızlı Hesaplı HESify'lı</p>
         <form id="login-input-form">
-          <input class="login-email" type="email" placeholder="Email">
-          <input class="login-password" type="password" placeholder="Şifre">
+          <input class="login-email" type="email" placeholder="Email" required>
+          <input class="login-password" type="password" placeholder="Şifre" required>
+          <p id="error-message" class="error">Şifre en az 6 karakter olmalıdır.</p>
         </form>
-        <button class="login-button">Giriş</button>
+        <button class="login-button"></button>
         <a href="#">Şifremi unuttum</a>
       </div>
     </div>
