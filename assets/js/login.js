@@ -17,9 +17,19 @@ button.addEventListener("click", (event) => {
         const users = data.find(user => user.email === userMail && user.password == userPassword);
         
         if(users){
+            Swal.fire({
+                title: "Giriş Başaralı",
+                icon: "success",
+                draggable: true
+              });
             console.log("kullanıcı bulundu");
             
         }else {
+            Swal.fire({
+                title: "Böyle bir kullanıcı yok",
+                icon: "error",
+                draggable: false
+              });
             console.log("kullanıcı bulunamadı");
         }
 
