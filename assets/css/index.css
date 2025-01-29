@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 135px 16px;
+  border-bottom: 1px solid #000;
+}
+
+.content {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000;
+  padding: 4px 2px;
+  border-radius: 4px;
+  text-shadow: 2px 2px 4px #ec9f9f;
+  background: linear-gradient(to right, #d3b5b5, #87e2ee);
+}
+
+.content-contact a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.content-contact {
+  display: flex;
+  gap: 48px;
+}
+
+.content-item {
+  width: 395px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 243px;
+  padding: 7px 12px 7px 20px;
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: #F5F5F5;
+}
+
+.search i {
+  font-size: 16px;
+}
+
+.dynamic-icon {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  cursor: pointer;
+}
+.container {
+    max-width: 1440px;
+}
+.category {
+    width: 400px;
+    display: grid;
+    grid-template-areas: "aside main main main";
+}
+aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 135px;
+    gap: 16px;
+    border-right:1px solid #000000 ;
+} 
+main {
+    grid-area: main;
+}
+.slider {
+    width: 100%; /* Responsive olacak şekilde tam genişlik ver */
+    max-width: 872px; /* Maksimum genişliği belirleyin */
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; /* Ortalamak için */
+}
+
+.slides {
+    display: flex;
+    width: 300%; /* Üç resim gösterileceği için %300 */
+    transition: transform 0.5s ease-in-out;
+}
+
+.product {
+    width: 100%; /* Her bir resim %100 genişliğe sahip olacak */
+    text-align: center;
+    padding: 20px;
+    background: lightblue;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.product img {
+    width: 892px;
+    height: 344px;
+    display: block;
+}
+
+/* Radio butonları gizle */
+input {
+    display: none;
+}
+
+/* Dots (Navigasyon) */
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dots label {
+    width: 15px;
+    height: 15px;
+    background: gray;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dots label.active {
+    background: black;
+}
+
+/* Radio buton seçildiğinde kaydırma efekti */
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-33.33%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-66.66%);
+}
+
+/* Aktif noktayı renklendir */
+#slide1:checked ~ .dots label:nth-child(1),
+#slide2:checked ~ .dots label:nth-child(2),
+#slide3:checked ~ .dots label:nth-child(3) {
+    background: black;
+}
