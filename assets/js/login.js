@@ -2,13 +2,24 @@ const mail = document.querySelector(".login-email");
 const password = document.querySelector(".login-password");
 const button = document.querySelector(".login-button");
 const errorMessage = document.querySelector("#error-message");
+const emailError = document.querySelector("#email-error");
+const passwordError = document.querySelector("#password-error");
+
+mail.addEventListener("blur", () => {
+    if (mail.value.trim() === "") {
+        emailError.textContent = "E-posta alanı boş olamaz.";
+        emailError.style.display = "block";
+    } else {
+        emailError.style.display = "none";
+    }
+});
 
 password.addEventListener("blur", () => {
     if (password.value.length > 0 && password.value.length < 6) {
-        errorMessage.style.display = "block";
-        errorMessage.style.color = "red"
+        passwordError.textContent = "Şifre en az 6 karakter olmalıdır.";
+        passwordError.style.display = "block";
     } else {
-        errorMessage.style.display = "none";
+        passwordError.style.display = "none";
     }
 });
 
