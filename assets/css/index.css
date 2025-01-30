@@ -92,3 +92,53 @@
 .button {
   cursor: pointer;
 }
+.aside {
+  width: 100%;
+}
+.category {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.category a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+/* .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0} */
+.mySlides {
+  display: none;
+}
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+}
+
+/* Butonları daha büyük yap ve mobilde kolay tıklanabilir hale getir */
+.w3-left, .w3-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.5); /* Hafif arkaplan */
+  color: white;
+  border-radius: 50%;
+  z-index: 10; /* Üstte olmasını sağlar */
+}
+
+.w3-left { left: 10px; }
+.w3-right { right: 10px; }
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
