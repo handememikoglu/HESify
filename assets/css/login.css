@@ -9,7 +9,8 @@
 }
 
 .login-container {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   margin: auto;
   margin-bottom: 140px;
 }
@@ -41,23 +42,27 @@
   color: #000;
   text-decoration: none;
   position: absolute;
-  right: 24px;
+  right: 10px; 
 }
 
 .login-content {
-  width: 1305px;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 129px;
 }
 
 .login-content img {
-  width: 720px;
-  height: 658px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .login-form {
-  width: 370px;
+  width: 100%;
+  max-width: 370px;
+  text-align: center;
 }
 
 .login-form h2 {
@@ -81,7 +86,7 @@
 
 .login-form form input {
   font-family: Poppins;
-  width: 370px;
+  width: 100%;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -95,7 +100,7 @@
 
 .login-button  {
   font-family: Poppins;
-  width: 143px;
+  width: 100%;
   padding: 16px 48px;
   border-radius: 4px;
   font-size: 16px;
@@ -106,6 +111,7 @@
   border-style: none;
   background-color: #DB4444;
   margin-right: 87px;
+  margin-bottom: 20px;
 }
 
 .login-form a {
@@ -121,4 +127,42 @@
   font-size: 14px;
   margin-top: 5px;
   display: none;
+}
+@media (max-width: 768px) {
+  .login-container {
+    margin-bottom: 40px;
+  }
+
+  .login-header {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .login-header h1 {
+    font-size: 24px;
+  }
+  .login-header a {
+    padding: 24px;
+  }
+  .login-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .login-content img {
+    max-width: 300px;
+  }
+
+  .login-form {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .login-form h2 {
+    font-size: 28px;
+  }
+
+  .login-form form input, .login-button {
+    font-size: 14px;
+  }
 }
