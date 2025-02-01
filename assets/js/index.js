@@ -4,7 +4,7 @@
         .then(data => {
             const productsDiv = document.querySelector(".products");
             const filteredProducts = data.products
-                .filter(product => product.id % 2 === 0)
+                .filter(product => product.id % 2 === 0).slice(0,4)
                 .map(product => `
                   <div class="product"> 
                     <img src="${product.images[0]}" alt="${product.title}">
